@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">  
+<head>
+ <meta charset="UFT-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Login page</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>login</h1>
+        <form>
+            <div class="form-group">
+            <label for="username">username</label>
+            <imput type="text" id="username" name="username" aria-placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password"> username:</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <button type="button" id="togglePassword" class="toggle-password">👁️</button>
+            </div>
+            </div>
+            <button type="submit" class="login-button"></button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
